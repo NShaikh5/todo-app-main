@@ -79,3 +79,15 @@
     border-radius: 10px;
     border: none;
 }
+.addBtn{
+  background-color: #007569;
+  width: 200px;
+  height: 50px; 
+  font-size: large;
+  color: aliceblue;
+  margin: 10px;
+  border-radius: 10px;
+    border: none;
+    position: relative;
+    left: 45rem;
+}

@@ -40,12 +40,12 @@ function NewTodoForm(props) {
         <h1>Register Your Activity</h1>
         <div className={classes.control}>
         <br />
-          <label htmlFor='title' >Name</label>
+          <label htmlFor='title' >Name:</label>
           <input type='text' required id='title' ref={nameInputRef} />
         </div>
         <div className={classes.control}>
         
-        <label htmlFor='title'>Activity Type</label>
+        <label htmlFor='title'>Activity Type:</label>
         <select required ref={typeInputRef}>
           <option value="">Please choose an option</option>
           <option value="Running">Running</option>
@@ -57,11 +57,11 @@ function NewTodoForm(props) {
         </div>
       <div className={classes.control}>
         
-      <label required htmlFor='title'>Select Duration</label>      
+      <label required htmlFor='title'>Enter Duration in Minutes:</label>      
       <input type='number' required ref={durationInputRef} />
         </div>
         <div className={classes.control}>
-          <label required htmlFor='description'>Description</label>
+          <label required htmlFor='description'>Description:</label>
           <textarea
             id='description'
             required

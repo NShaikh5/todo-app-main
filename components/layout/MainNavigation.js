@@ -33,7 +33,7 @@ useEffect(() => {
             <Link href='/activity'>Activities</Link>
           </li>
           <li>
-            <Link href='/new-todo'>Register Activity</Link>
+            <Link href='/new-todo'>Add Activity</Link>
           </li>
           <li>
             <Link href='/register'>Register/SignUp</Link>

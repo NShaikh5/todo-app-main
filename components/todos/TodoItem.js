@@ -21,7 +21,7 @@ import { useState, useEffect } from 'react';
      
   return (
     <>
-    
+     <button  className={classes.addBtn}  ><Link href='/new-todo'>Add Activity</Link></button>
       {
         data.map((item)=>{
           
@@ -55,7 +55,7 @@ import { useState, useEffect } from 'react';
           <div> 
             <button  className={classes.dltBtn} >Delete</button>
            
-            <button className={classes.editBtn}><Link href='/new-todo'>eeee</Link>Edit</button>
+            <button className={classes.editBtn}><Link href='/new-todo'>Edit</Link></button>
           </div>
       </Card>
       
